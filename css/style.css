@@ -1,0 +1,39 @@
+body {
+	font-family: "Roboto", "Raleway", sans-serif;
+	color: #212121;
+}
+.maintitle {
+	font-size: 44px;
+	font-weight: 900;
+}
+.sidetitle {
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 1.14;
+}
+.team {
+	font-size: 36px;
+	font-weight: 700;
+}
+.imgtitle {
+	font-weight: 500;
+}
+.imgtitle1 {
+	font-size: 18px;
+	font-weight: 900;
+}
+.text1 {
+	line-height: 1.71;
+}
+.fsizelink {
+	font-size: 14px;
+	font-weight: 500;
+}
+.fsizelink2 {
+	font-size: 14px;
+	line-height: 1.71;
+}
+.logosize {
+	font-size: 26px;
+	line-height: 1.19;
+}
