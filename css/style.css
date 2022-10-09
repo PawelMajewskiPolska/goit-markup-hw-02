@@ -2,6 +2,11 @@ body {
 	font-family: "Roboto", "Raleway", sans-serif;
 	color: #212121;
 }
+:root {
+	--brand-color1: #2196f3;
+	--brand-color2: #000000;
+	--brand-color3: #ffffff;
+}
 .maintitle {
 	font-size: 44px;
 	font-weight: 900;
@@ -25,15 +30,58 @@ body {
 .text1 {
 	line-height: 1.71;
 }
-.fsizelink {
+.fontsize-link {
 	font-size: 14px;
 	font-weight: 500;
 }
-.fsizelink2 {
+.fontsize-link2,
+.fontsize-address {
 	font-size: 14px;
 	line-height: 1.71;
+	color: white;
 }
-.logosize {
+.logo-size {
 	font-size: 26px;
 	line-height: 1.19;
+}
+.link {
+	color: #000000;
+	text-decoration: none;
+}
+.link:focus,
+.link:hover,
+.fontsize-link2:focus,
+.fontsize-link2:hover {
+	color: blue;
+}
+.link:active,
+.fontsize-link2:active {
+	color: red;
+}
+.web-logo {
+	color: var(--brand-color1);
+}
+.studio-logo {
+	color: var(--brand-color2);
+}
+.studio-logo-footer {
+	color: var(--brand-color3);
+}
+.active-color {
+	color: #2196f3;
+}
+.colorbutton {
+	background-color: #2196f3;
+	color: white;
+}
+.colorbutton:hover {
+	background-color: red;
+}
+.footer-background,
+.main-title-background {
+	background-color: #2f303a;
+	color: white;
+}
+.pointer {
+	cursor: pointer;
 }
