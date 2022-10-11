@@ -10,35 +10,69 @@ body {
 .maintitle {
 	font-size: 44px;
 	font-weight: 900;
+	line-height: 1.36;
+	letter-spacing: 0.06em;
+	color: #ffffff;
 }
 .sidetitle {
 	font-size: 14px;
-	font-weight: 700;
 	line-height: 1.14;
+	letter-spacing: 0.03em;
+	color: #212121;
 }
 .team {
 	font-size: 36px;
-	font-weight: 700;
+	line-height: 1, 17;
+	letter-spacing: 0.03em;
+	color: #212121;
 }
 .imgtitle {
 	font-weight: 500;
+	line-height: 1.19;
+	letter-spacing: 0.03em;
+	color: #212121;
 }
 .imgtitle1 {
 	font-size: 18px;
-	font-weight: 900;
+	font-weight: 700;
+	line-height: 2;
+	letter-spacing: 0.06em;
+	color: #212121;
+}
+.imgtitle2 {
+	line-height: 1.19;
+	letter-spacing: 0.03em;
+	color: #757575;
 }
 .text1 {
+	font-size: 14px;
 	line-height: 1.71;
+	letter-spacing: 0.03em;
+	color: #757575;
+}
+.text2 {
+	font-size: 16px;
+	line-height: 1.87;
+	letter-spacing: 0.03em;
+	color: #757575;
 }
 .fontsize-link {
 	font-size: 14px;
 	font-weight: 500;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
 }
-.fontsize-link2,
+.fontsize-link2 {
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+	color: rgba(255, 255, 255, 0.6);
+}
 .fontsize-address {
 	font-size: 14px;
 	line-height: 1.71;
-	color: white;
+	letter-spacing: 0.03em;
+	color: #ffffff;
 }
 .logo-size {
 	font-size: 26px;
@@ -52,19 +86,34 @@ body {
 .link:hover,
 .fontsize-link2:focus,
 .fontsize-link2:hover {
-	color: blue;
+	color: #2196f3;
 }
 .link:active,
 .fontsize-link2:active {
 	color: red;
 }
 .web-logo {
+	font-family: "Raleway";
+	font-size: 26px;
+	font-weight: 700;
+	line-height: 1.19;
+	letter-spacing: 0.03em;
 	color: var(--brand-color1);
 }
 .studio-logo {
+	font-family: "Raleway";
+	font-size: 26px;
+	font-weight: 700;
+	line-height: 1.19;
+	letter-spacing: 0.03em;
 	color: var(--brand-color2);
 }
 .studio-logo-footer {
+	font-family: "Raleway";
+	font-size: 26px;
+	font-weight: 700;
+	line-height: 1.19;
+	letter-spacing: 0.03em;
 	color: var(--brand-color3);
 }
 .active-color {
@@ -73,6 +122,15 @@ body {
 .colorbutton {
 	background-color: #2196f3;
 	color: white;
+	font-size: 16px;
+	line-height: 1.87;
+	letter-spacing: 0.06em;
+}
+.buttonlink {
+	font-weight: 500;
+	line-height: 1.63;
+	letter-spacing: 0.03em;
+	color: #212121;
 }
 .colorbutton:hover {
 	background-color: red;
