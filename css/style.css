@@ -34,7 +34,6 @@ body {
 }
 .imgtitle1 {
 	font-size: 18px;
-	font-weight: 700;
 	line-height: 2;
 	letter-spacing: 0.06em;
 	color: #212121;
@@ -67,11 +66,13 @@ body {
 	line-height: 1.71;
 	letter-spacing: 0.03em;
 	color: rgba(255, 255, 255, 0.6);
+	font-style: normal;
 }
 .fontsize-address {
 	font-size: 14px;
 	line-height: 1.71;
 	letter-spacing: 0.03em;
+	font-style: normal;
 	color: #ffffff;
 }
 .logo-size {
